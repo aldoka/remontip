@@ -150,7 +150,7 @@ p {
 .buttons a:hover {
 	cursor:pointer
 }
-.menu li a, .link, .button, .button-2, h1 a {
+.menu li a, .link, .button, .button-2, .h1 a {
 	text-decoration:none
 }
 /*********************************header*************************************/
@@ -171,11 +171,14 @@ header {
 	z-index:1;
 }
 h1 {
+	font-size: xx-large;
+}
+.h1 {
 	float:left;
 	padding:30px 0 0 59px;
 	position:relative;
 }
-h1 a {
+.h1 a {
 	display:block;
 	width:218px;
 	height:32px;

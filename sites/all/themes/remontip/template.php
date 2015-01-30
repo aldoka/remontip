@@ -1,8 +1,20 @@
 <?php
 
 function remontip_preprocess_html(&$variables) {
-    $variables['attributes_array']['id'] = $variables['is_front'] ? 'page1' : 'page';
-    drupal_add_js("
+    $pageId = '';
+    if ($variables['is_front'] === true) {
+        $pageId = 'page1';
+    }
+
+    $node = menu_get_object();
+    if (empty($pageId) === true && isset($node) === true) {
+    	$pageId = 'page'.$node->nid;
+    }
+
+    $variables['attributes_array']['id'] = $pageId;
+
+    drupal_add_js(
+        "Cufon.now();
         jQuery(window).load(function () {
             jQuery('.slider')._TMS({
                 duration: 800,

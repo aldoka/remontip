@@ -7,14 +7,14 @@
     <div class="indent <?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>">
       <div class="row-top">
         <div class="wrapper">
-          <h1>
+          <p class="h1">
           <?php if ($logo): ?>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
               <?php print $site_name; ?>
             </a>
           <?php endif; ?>
-          </h1>
+          </p>
           <strong class="support">+375 29 709-53-41</strong>
         </div>
       </div>
@@ -84,10 +84,6 @@
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-    <?php endif; ?>
-
     <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="column sidebar"><div class="section">
         <?php print render($page['sidebar_first']); ?>
@@ -99,7 +95,7 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
-        <h1 class="title" id="page-title">
+        <h1 class="title p1" id="page-title">
           <?php print $title; ?>
         </h1>
       <?php endif; ?>
