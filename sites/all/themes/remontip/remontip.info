@@ -16,6 +16,9 @@ scripts[] = js/FF-cash.js
 scripts[] = js/script.js
 scripts[] = js/jquery.equalheights.js
 scripts[] = js/easyTooltip.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/tms-0.3.js
+scripts[] = js/tms_presets.js
 
 regions[header] = Header
 regions[help] = Help

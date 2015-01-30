@@ -1,3 +1,3 @@
-$(document).ready(function() { 
-	$(".list-services .tooltips").easyTooltip();
+jQuery(document).ready(function() { 
+	jQuery(".list-services .tooltips").easyTooltip();
 }); 

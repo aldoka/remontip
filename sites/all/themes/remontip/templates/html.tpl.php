@@ -9,11 +9,6 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <?php if ($is_front) : ?>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/tms-0.3.js"></script>
-    <script src="js/tms_presets.js"></script>
-  <?php endif;?>
 
   <!--[if lt IE 9]>
   <script src="/js/html5.js"></script>

@@ -202,6 +202,16 @@ h1 a {
 ul.menu li {
 	margin: 0;
 }
+.center_1 {
+	float: right;
+	position: relative;
+	right: 50%;
+}
+.center_2 {
+	position: relative;
+	right: -50%;
+}
+
 .menu li {
 	float:left;
 	position:relative;

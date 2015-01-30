@@ -215,8 +215,8 @@
 $databases = array('default' => array( 'default' => array(
  'driver' => 'mysql',
  'database' => 'remontip_drup1',
- 'username' => 'remontip_drup1',
- 'password' => 'F[^)PWBef664~#8',
+ 'username' => 'root',
+ 'password' => 'seeTievu',
  'host' => 'localhost',
  'prefix' => 'drup_',
  'collation' => 'utf8_general_ci',

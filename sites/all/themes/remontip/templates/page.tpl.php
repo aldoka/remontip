@@ -21,15 +21,20 @@
 
       <?php print render($page['header']); ?>
 
-      <nav>
+      <nav lang="<?php print $language->language; ?>">
+        
         <?php if ($main_menu): ?>
-          <?php print theme('links__system_main_menu', array(
-            'links' => $main_menu,
-            'attributes' => array(
-              'id' => 'main-menu-links',
-              'class' => array('links', 'clearfix', 'menu'),
-            ),
-            )); ?>
+          <div class="center_1">
+            <div class="center_2">
+              <?php print theme('links__system_main_menu', array(
+                'links' => $main_menu,
+                'attributes' => array(
+                  'id' => 'main-menu-links',
+                  'class' => array('links', 'clearfix', 'menu'),
+                ),
+              )); ?>
+            </div>
+          </div>
         <?php endif; ?>
       </nav>
 
@@ -54,14 +59,14 @@
     <div class="wrapper">
       <div class="slider">
         <ul class="items">
-          <li><img src="images/slider-img1.jpg" alt=""></li>
-          <li><img src="images/slider-img2.jpg" alt=""></li>
-          <li><img src="images/slider-img3.jpg" alt=""></li>
+          <li><img src="/sites/all/themes/remontip/images/slider-img1.jpg" alt=""></li>
+          <li><img src="/sites/all/themes/remontip/images/slider-img2.jpg" alt=""></li>
+          <li><img src="/sites/all/themes/remontip/images/slider-img3.jpg" alt=""></li>
         </ul>
-        <a class="prev">пред.</a> <a class="next">след.</a>
-        <div class="banner1-bg"></div>
-        <div class="banner-1"></div>
       </div>
+      <a class="prev">пред.</a> <a class="next">след.</a>
+      <div class="banner1-bg"></div>
+      <div class="banner-1"></div>
     </div>
   </header> <!-- /.section, /#header -->
 
