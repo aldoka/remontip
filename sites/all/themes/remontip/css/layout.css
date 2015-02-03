@@ -23,18 +23,18 @@ body.front .box .padding {
 	padding:18px 10px 0 30px
 }
 /* index-1.html */
-#page2 .col-1 {
+body.page-node-1 .col-1 {
 	width:660px;
 	margin-right:65px
 }
-#page2 .col-2 {
+body.page-node-1 .col-2 {
 	width:280px
 }
-#page2 .column-1 {
+body.page-node-1 .column-1 {
 	width:326px;
 	margin-right:21px
 }
-#page2 .column-2 {
+body.page-node-1 .column-2 {
 	width:326px
 }
 /* index-2.html */

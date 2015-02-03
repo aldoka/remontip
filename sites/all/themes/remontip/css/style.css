@@ -255,7 +255,7 @@ ul.menu li {
 .slider-inner {
 	padding-left:284px
 }
-.slider {
+body.front .slider {
 	position:relative;
 	width:736px;
 	height:397px;
@@ -275,6 +275,9 @@ ul.menu li {
 	top:47px;
 	z-index:99;
 	cursor:pointer;
+}
+body.page-node-2 .next, .prev {
+	top: 400px;
 }
 .next {
 	left:auto;
