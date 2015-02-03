@@ -170,9 +170,6 @@ header {
 	overflow:hidden;
 	z-index:1;
 }
-h1 {
-	font-size: xx-large;
-}
 .h1 {
 	float:left;
 	padding:30px 0 0 59px;
@@ -218,7 +215,7 @@ ul.menu li {
 .menu li {
 	float:left;
 	position:relative;
-	padding-right:2px;
+	padding-right:1px;
 	background:url(../images/menu-spacer.gif) right top repeat-y;
 }
 .menu li.last {
@@ -315,24 +312,21 @@ aside {
 	width:100%;
 	background: 217px 0 repeat-y;
 }
-h2 {
-	font-size:44px;
-	line-height:1.204em;
-	color:#f6a20e;
-	text-transform:uppercase;
-	margin-bottom:6px;
-	letter-spacing:-4px;
-}
-h3 {
+h1 {
 	font-size:36px;
 	line-height:1.222em;
 	color:#222;
 	letter-spacing:-2px;
-	margin-bottom:22px;
+	padding-left: 30px;
 }
-h4 {
+h2 {
 	font-size:28px;
 	line-height:58px;
+	color:#222;
+	letter-spacing:-1px;
+}
+h3 {
+	font-size:20px;
 	color:#222;
 	letter-spacing:-1px;
 }
@@ -440,12 +434,12 @@ h6 {
 	float: right;
 	color: #222;
 }
-.price-list li a {
+.price-list li span.price_item_text {
 	float: left;
 	text-decoration: none;
 	color: #222;
 }
-.price-list li a:hover {
+.price-list li span.price_item_text:hover {
 	color:#F6A20E
 }
 .link:hover {
@@ -593,17 +587,19 @@ footer {
 	z-index:99;
 }
 /*********extra***********/
-.block {
+.aBlock {
 	height:132px
 }
 .extra {
-	min-height:100%;
 	height:auto !important;
 	height:100%;
-	margin: 0 auto -132px;
+	margin: 0 auto;
 	position:relative;
 	overflow:hidden;
 }
 html, body {
 	height:100%
+}
+#secondary-menu {
+	clear: both;
 }
