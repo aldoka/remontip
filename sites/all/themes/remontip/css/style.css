@@ -374,7 +374,7 @@ h6 {
 .button:hover {
 	background:#dbdbdb
 }
-.button-2 {
+.button-2, #contact-site-form #edit-submit {
 	display:inline-block;
 	padding:7px 23px 8px;
 	font-size:21px;
@@ -387,7 +387,7 @@ h6 {
 	-webkit-border-radius:10px;
 	cursor:pointer;
 }
-.button-2:hover {
+.button-2:hover, #contact-site-form #edit-submit:hover {
 	background:#f6a410
 }
 .list-1 li {
@@ -473,15 +473,19 @@ dl dd {
 	overflow:hidden
 }
 /***** contact form *****/
-#contact-form {
+#contact-site-form {
 	display:block
 }
-#contact-form label {
-	display:block;
+#contact-site-form label {
+	float: left;
 	height:37px;
+	width: 105px;
 	overflow:hidden;
 }
-#contact-form input {
+#contact-site-form .form-item {
+	clear: both;
+}
+#contact-site-form input {
 	float:left;
 	width:265px;
 	font-size:12px;
@@ -497,7 +501,7 @@ dl dd {
 	-webkit-border-radius:9px;
 	outline:none;
 }
-#contact-form textarea {
+#contact-site-form textarea {
 	float:left;
 	height:238px;
 	width:529px;
@@ -515,6 +519,17 @@ dl dd {
 	-webkit-border-radius:9px;
 	outline:none;
 }
+#contact-site-form #edit-actions {
+	display: inline-block;
+	clear: both;
+	padding:15px 0 0 0;
+	text-align:right
+}
+#contact-site-form #edit-actions input[type=submit] {
+	float: right;
+	margin-right:8px;
+	padding:8px 32px
+}
 .text-form {
 	float:left;
 	display:block;
@@ -523,14 +538,6 @@ dl dd {
 	width:83px;
 	color:#222;
 	font-family:Arial, Helvetica, sans-serif;
-}
-.buttons {
-	padding:15px 0 0 0;
-	text-align:right
-}
-.buttons a {
-	margin-right:8px;
-	padding:8px 32px
 }
 /****************************footer************************/
 footer {
