@@ -19,6 +19,10 @@ body.front .indent {
 body.front #content {
 	padding:10px 0 33px
 }
+body.front #content p {
+	padding: 0 30px;
+	text-align: justify;
+}
 body.front .box .padding {
 	padding:18px 10px 0 30px
 }

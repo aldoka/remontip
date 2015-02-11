@@ -15,7 +15,7 @@
             </a>
           <?php endif; ?>
           </p>
-          <strong class="support">+375 29 709-53-41</strong>
+          <strong class="support">МТС +375 29 709-53-41&nbsp;&nbsp;&nbsp;Velcom +375 44 575-93-22</strong>
         </div>
       </div>
 
